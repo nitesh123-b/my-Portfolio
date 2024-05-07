@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            align-items: center;
+
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(5, 10, 59);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-size: 25px;
+
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+
+
+
+
+        }
+
+        nav ul li a:Hover {
+
+            color: rgb(153, 153, 153);
+            font-size: 0.8rem;
+
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+
+            /* padding:12px;
+            background:#1e2167;
+            color:white;
+            border:2px solid white;
+            border-radius:6px;
+            font-size:20px;
+            cursor:pointer;*/
+            font-size: 1.5rem;
+            padding: 1rem 2.5rem;
+            border: none;
+            outline: none;
+            border-radius: 0.4rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            background-color: rgb(14, 14, 26);
+            color: rgb(234, 234, 234);
+            font-weight: 700;
+            transition: o.6s;
+            box-shadow: 0px 0px 60px #1f4c65;
+            -webkit-box-reflect: below 10px linear-gradient (to bottom, rgba(0, 0, 0, 0.4));
+
+        }
+
+        .leftsection .btn:hover {
+            background: rgb(2, 29, 78);
+            background: linear-gradient(270deg, rgb(0, 0, 0)0%, rgba(237, 104, 8, 0.873)60%);
+            color: rgb(4, 4, 38);
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 60px 0;
+        }
+
+        .purple {
+            color: blueviolet;
+
+        }
+
+        .text-grey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border:0;
+            background: #00195c;
+            height: 1.2px;
+            margin: 60px 84px;
+            
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 76vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px
+        }
+
+        /*.secondSecond .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+        }*/
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -38px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 65px;
+            width: 154px;
+            font-size: 26px;
+            
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 76px;
+            width: 150px;
+            font-size: 23px;
+            color: grey;
+        }
+
+        footer {
+            background-color: rgb(45, 43, 40);
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        
+        .footer-Second{
+            font-size:25px;
+        }
+        .footer-Third{
+            font-size:25px;
+        }
+        .footer-Fourth{
+            font-size:25px;
+        }
+
+        
+
+        footer .footer-right {
+            text-align: center;
+            color: grey;
+            padding: 12px;
+            font-size:23px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Nitesh'S Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hii, My name is <span class="purple"> Nitesh Maurya</span>
+                <div>and I am on the path of</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> VISIT GITHUB</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="niteshdeveloper.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have learned</span>
+            <h1>SKILLS</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="nitesh1.png" alt="">
+                    <div class="vertical-title">
+                        HTML 
+                    </div>
+                    <div class="vertical-desc">
+                        loren ipsum dolor sit amet consector adipisicing elit
+                    </div>
+
+
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="niteshcss.png" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        loren ipsum dolor sit amet consector adipisicing elit
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="niteshjava.png" alt="">
+                    <div class="vertical-title">
+                        CORE JAVA
+                    </div>
+                    <div class="vertical-desc">
+                        loren ipsum dolor sit amet consector adipisicing elit
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="niteshpython.png" alt="">
+                    <div class="vertical-title">
+                        PYTHON
+                    </div>
+                    <div class="vertical-desc">
+                        loren ipsum dolor sit amet consector adipisicing elit
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="niteshsql.png" alt="">
+                    <div class="vertical-title">
+                        SQL
+                    </div>
+                    <div class="vertical-desc">
+                        loren ipsum dolor sit amet consector adipisicing elit
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="niteshpy.png" alt="">
+                    <div class="vertical-title">
+                        PYTHON LIBRARIES
+                    </div>
+                    <div class="vertical-desc">
+                        PANDAS,NUMPY,SEABORN,TABLEAU
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-First">
+                <h3>Nitesh's Portfolio
+                    
+                </h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+        <div class="footer-right">
+            copyright&#169;niteshportfolio.com| All rights reserved
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Vedio Editor', 'Front-end-Developer', ' Data Analyst'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
